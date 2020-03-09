@@ -108,3 +108,4 @@ dist
 
 # VSCode settings
 .vscode/
+nodemon.json

@@ -2,5 +2,11 @@
   "name": "sorting",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {},
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2"
+  }
 }
