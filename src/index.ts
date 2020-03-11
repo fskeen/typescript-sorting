@@ -5,11 +5,11 @@ import { StringCollection } from "./StringCollection";
 // Bubble sort!
 
 const numbers = new NumCollection([10, 3, -5, 0]);
-const sortA = new Sorter(numbers);
-sortA.sort();
+// const sortA = new Sorter(numbers);
+numbers.sort();
 console.log(numbers.data);
 
 const string = new StringCollection("hoWdy");
-const sortB = new Sorter(string);
-sortB.sort();
+// const sortB = new Sorter(string);
+string.sort();
 console.log(string.data);
