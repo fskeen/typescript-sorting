@@ -9,7 +9,7 @@ const sortA = new Sorter(numbers);
 sortA.sort();
 console.log(numbers.data);
 
-const string = new StringCollection("howdy");
+const string = new StringCollection("hoWdy");
 const sortB = new Sorter(string);
 sortB.sort();
 console.log(string.data);

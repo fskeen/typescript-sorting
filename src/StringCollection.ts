@@ -1,4 +1,6 @@
-export class StringCollection {
+import { Sortable } from "./Sorter";
+
+export class StringCollection implements Sortable {
   data: string;
   array: string[];
 
