@@ -10,12 +10,14 @@ export class StringCollection {
     return this.array.length;
   }
   compare(leftIndex: number, rightIndex: number): boolean {
-    return this.array[leftIndex] > this.array[rightIndex];
+    return (
+      this.array[leftIndex].toLowerCase() > this.array[rightIndex].toLowerCase()
+    );
   }
   swap(leftIndex: number, rightIndex: number): void {
-    const currentNum = this.array[leftIndex];
+    const currentChar = this.array[leftIndex];
     this.array[leftIndex] = this.array[rightIndex];
-    this.array[rightIndex] = currentNum;
+    this.array[rightIndex] = currentChar;
     this.data = this.array.join("");
   }
 }
